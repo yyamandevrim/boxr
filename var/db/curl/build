@@ -1,0 +1,17 @@
+pwd
+./configure --enable-unix-sockets \
+    --enable-hidden-symbols \
+    --disable-manual \
+    --disable-ldap \
+    --disable-ares \
+    --with-openssl \
+    --with-pic \
+    --with-ca-fallback \
+    --without-librtmp \
+    --without-icu \
+    --without-libpsl \
+    --without-libidn \
+    --without-libidn2 \
+    --without-brotli \
+    --without-zstd
+make install
